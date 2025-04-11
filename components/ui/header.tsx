@@ -11,14 +11,14 @@ export default function Header({ nav = true }: {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link className="flex items-center space-x-2" href="/" aria-label="Observly">
-              <svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-48 h-48" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="gradientText" x1="0%" y1="0%" x2="100%" y2="0%">
                     <stop offset="0%" stopColor="#818cf8" />
                     <stop offset="100%" stopColor="#a855f7" />
                   </linearGradient>
                 </defs>
-                <text x="0" y="70" fontFamily="Segoe UI, sans-serif" fontSize="36" fontWeight="600" fill="url(#gradientText)">
+                <text x="0" y="70" fontFamily="Segoe UI, sans-serif" fontSize="48" fontWeight="600" fill="url(#gradientText)">
                   Observly.
                 </text>
               </svg>
