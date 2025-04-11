@@ -65,7 +65,7 @@ export default function Features() {
           <div className="carousel swiper-container">
             <div className="swiper-wrapper">
               {/* Carousel items */}
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
+              <div className="swiper-slide h-full flex flex-col bg-slate-800 p-6 rounded-sm min-h-[360px]">
                 <Image className="mb-3" src={FeaturesIcon01} width={56} height={56} alt="Icon 01" />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">Real-time Monitoring</div>
@@ -74,7 +74,7 @@ export default function Features() {
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
+              <div className="swiper-slide h-full flex flex-col bg-slate-800 p-6 rounded-sm min-h-[360px]">
                 <Image className="mb-3" src={FeaturesIcon02} width={56} height={56} alt="Icon 02" />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">Intelligent Alerting</div>
@@ -83,7 +83,7 @@ export default function Features() {
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
+              <div className="swiper-slide h-full flex flex-col bg-slate-800 p-6 rounded-sm min-h-[360px]">
                 <Image className="mb-3" src={FeaturesIcon03} width={56} height={56} alt="Icon 03" />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">Certificate Monitoring</div>
@@ -92,7 +92,7 @@ export default function Features() {
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
+              <div className="swiper-slide h-full flex flex-col bg-slate-800 p-6 rounded-sm min-h-[360px]">
                 <Image className="mb-3" src={FeaturesIcon04} width={56} height={56} alt="Icon 04" />
                 <div className="grow">
                   <div className="font-hkgrotesk font-bold text-xl">Zero-Config Setup</div>
