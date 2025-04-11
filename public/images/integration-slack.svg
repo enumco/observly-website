@@ -1,0 +1,24 @@
+<svg width="42" height="42" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="slack-color-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Each color path wrapped with glow filter individually -->
+  <path filter="url(#slack-color-glow)" d="M26.5 15C27.88 15 29 13.88 29 12.5C29 11.12 27.88 10 26.5 10C25.12 10 24 11.12 24 12.5V15H26.5Z" fill="#2EB67D"/>
+  <path filter="url(#slack-color-glow)" d="M19.5 15C20.88 15 22 13.88 22 12.5V5.5C22 4.12 20.88 3 19.5 3C18.12 3 17 4.12 17 5.5V12.5C17 13.88 18.12 15 19.5 15Z" fill="#2EB67D"/>
+  
+  <path filter="url(#slack-color-glow)" d="M5.5 17C4.12 17 3 18.12 3 19.5C3 20.88 4.12 22 5.5 22C6.88 22 8 20.88 8 19.5V17H5.5Z" fill="#E01E5A"/>
+  <path filter="url(#slack-color-glow)" d="M12.5 17C11.12 17 10 18.12 10 19.5V26.5C10 27.88 11.12 29 12.5 29C13.88 29 15 27.88 15 26.5V19.5C15 18.12 13.88 17 12.5 17Z" fill="#E01E5A"/>
+  
+  <path filter="url(#slack-color-glow)" d="M17 26.5C17 27.88 18.12 29 19.5 29C20.88 29 22 27.88 22 26.5C22 25.12 20.88 24 19.5 24H17V26.5Z" fill="#ECB22E"/>
+  <path filter="url(#slack-color-glow)" d="M17 19.5C17 20.88 18.12 22 19.5 22H26.5C27.88 22 29 20.88 29 19.5C29 18.12 27.88 17 26.5 17H19.5C18.12 17 17 18.12 17 19.5Z" fill="#ECB22E"/>
+  
+  <path filter="url(#slack-color-glow)" d="M15 5.5C15 4.12 13.88 3 12.5 3C11.12 3 10 4.12 10 5.5C10 6.88 11.12 8 12.5 8H15V5.5Z" fill="#36C5F0"/>
+  <path filter="url(#slack-color-glow)" d="M15 12.5C15 11.12 13.88 10 12.5 10H5.5C4.12 10 3 11.12 3 12.5C3 13.88 4.12 15 5.5 15H12.5C13.88 15 15 13.88 15 12.5Z" fill="#36C5F0"/>
+</svg>

@@ -13,26 +13,23 @@ export default function Faqs() {
             <div className="w-full md:w-1/2 space-y-8">
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">What is the difference between the Free and Paid versions?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">What is included in the 5,00 € / month plan?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                  You get 1 server with full monitoring, 5 external checks (HTTPS, Ping, Port, Certificate), unlimited team members, and access to all integrations.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Do you have student or non-profit discounts?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">Can I monitor services like websites or gameservers?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                  Yes! With external checks, you can monitor websites, ports, pings, and even certificate expiry. Perfect for web apps, gameservers, APIs and more.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">How is the price determined?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">How do I add more servers or checks?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                  Just head to your dashboard and add resources anytime. Additional servers cost 3,00 € / month and each check is 1,00 € / month.
                 </p>
               </div>
             </div>
@@ -40,26 +37,23 @@ export default function Faqs() {
             <div className="w-full md:w-1/2 space-y-8">
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Do I need coding knowledge to use this product?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">Is there a free trial?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                  Yes — we offer a 14-day free trial with no credit card required. Explore everything with full access.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Is there a way to become an Affiliate reseller?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">Do I need to install anything?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                  For internal server monitoring, a simple one-liner script installs our lightweight agent. External checks require no installation.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">What forms of payment do you accept?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">What integrations are available?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                  You can send alerts to Discord, Slack, Telegram, WhatsApp, E-Mail, and SMS — all included in every plan.
                 </p>
               </div>
             </div>

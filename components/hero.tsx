@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import HeroImage from '@/public/images/hero-image.png'
+import HeroImage from '@/public/images/screenshot-observly-app.png'
 
 export default function Hero() {
   return (
@@ -11,10 +11,13 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 font-hkgrotesk mb-6" data-aos="fade-up">
-              A powerful suite of user-centric products
+              Monitor your systems beautifully. Get alerted instantly.
             </h1>
             <p className="text-xl text-slate-500 mb-10" data-aos="fade-up" data-aos-delay="100">
-              Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              Observly helps you keep your infrastructure in check with stunning graphs, real-time alerts, and zero setup hassle. Stay ahead of outages — effortlessly.
+            </p>
+            <p className="text-sm text-slate-400 mb-8 flex justify-center items-center" data-aos="fade-up" data-aos-delay="150">
+              <span className="text-2xl mr-2">🇪🇺</span> Hosted privacy-safe in Europe
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
@@ -29,11 +32,6 @@ export default function Hero() {
                   </span>
                 </Link>
               </div>
-              <div>
-                <a className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-xs" href="#0">
-                  Read Docs
-                </a>
-              </div>
             </div>
           </div>
           {/* Hero image */}
@@ -45,3 +43,4 @@ export default function Hero() {
     </section>
   )
 }
+

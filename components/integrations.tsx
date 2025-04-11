@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import Icon01 from '@/public/images/integration-icon-01.svg'
-import Icon02 from '@/public/images/integration-icon-02.svg'
-import Icon03 from '@/public/images/integration-icon-03.svg'
-import Icon04 from '@/public/images/integration-icon-04.svg'
-import Icon05 from '@/public/images/integration-icon-05.svg'
-import Icon06 from '@/public/images/integration-icon-06.svg'
+import Icon01 from '@/public/images/integration-whatsapp.svg'
+import Icon02 from '@/public/images/integration-discord.svg'
+import Icon03 from '@/public/images/integration-email.svg'
+import Icon04 from '@/public/images/integration-sms.svg'
+import Icon05 from '@/public/images/integration-telegram.svg'
+import Icon06 from '@/public/images/integration-slack.svg'
 
 export default function Integrations() {
   return (

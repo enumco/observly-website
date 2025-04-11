@@ -53,10 +53,10 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk mb-4">Many tools to express your creativity</h2>
+            <h2 className="h2 font-hkgrotesk mb-4">Powerful tools to enhance your observability</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+                Observly provides powerful tools to help you monitor, analyze, and troubleshoot your systems with ease. Get real-time insights into your infrastructure health.
               </p>
             </div>
           </div>
@@ -68,61 +68,37 @@ export default function Features() {
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
                 <Image className="mb-3" src={FeaturesIcon01} width={56} height={56} alt="Icon 01" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Collaboration</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Real-time Monitoring</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Track system performance in real-time with dashboards that provide instant visibility into your infrastructure health and metrics.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
                 <Image className="mb-3" src={FeaturesIcon02} width={56} height={56} alt="Icon 02" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Experiences</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Intelligent Alerting</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Set up smart alerts with customizable thresholds to detect anomalies and receive notifications through your preferred channels before issues impact users.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
                 <Image className="mb-3" src={FeaturesIcon03} width={56} height={56} alt="Icon 03" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Animation</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Certificate Monitoring</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Track SSL/TLS certificates across your infrastructure to prevent unexpected expirations and security vulnerabilities with automated renewal reminders and status alerts.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded-sm">
                 <Image className="mb-3" src={FeaturesIcon04} width={56} height={56} alt="Icon 04" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Modeling</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Zero-Config Setup</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Go from install to insights in under a minute. Our single-line install script auto-connects your services, configures your agents, and gets monitoring up and running — no dashboards to wire, no YAML to wrangle.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
             </div>
