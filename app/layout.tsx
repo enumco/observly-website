@@ -22,10 +22,10 @@ const hkgrotesk = localFont({
     {
       path: '../public/fonts/HKGrotesk-ExtraBold.woff2',
       weight: '800',
-    },        
+    },
   ],
   variable: '--font-hkgrotesk',
-  display: 'swap',  
+  display: 'swap',
 })
 
 export const metadata = {
@@ -40,7 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${hkgrotesk.variable} font-inter antialiased bg-slate-900 text-slate-200 tracking-tight`}>
+      <body className={`${inter.variable} ${hkgrotesk.variable} overflow-x-hidden font-inter antialiased bg-slate-900 text-slate-200 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
         </div>
