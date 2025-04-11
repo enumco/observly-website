@@ -19,7 +19,7 @@ export default function Header({ nav = true }: {
                   </linearGradient>
                 </defs>
                 <text x="0" y="70" fontFamily="Segoe UI, sans-serif" fontSize="36" fontWeight="600" fill="url(#gradientText)">
-                  Observly
+                  Observly.
                 </text>
               </svg>
             </Link>
